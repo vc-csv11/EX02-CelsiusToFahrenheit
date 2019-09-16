@@ -1,4 +1,4 @@
-## EX01-HelloWorld
+## EX02-CelsiusToFahrenheit
 
 ### Overview
 
