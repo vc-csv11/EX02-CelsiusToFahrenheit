@@ -35,7 +35,7 @@ class CelsiusToFahrenheitTest(unittest.TestCase):
 
     def executeTest(self, c, expected, regex):
         # call hello world script command ##
-        p = subprocess.Popen("python src/celsius_to_fahrenheit.py", stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True, bufsize=1)
+        p = subprocess.Popen("python3 src/celsius_to_fahrenheit.py", stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True, bufsize=1)
 
         (output, err) = p.communicate('{0}'.format(c).encode())
         p_status = p.wait()
